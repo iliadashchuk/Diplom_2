@@ -5,17 +5,13 @@ import org.apache.commons.lang3.RandomStringUtils;
 import org.junit.Test;
 import stellarburgers.models.Order;
 import stellarburgers.steps.OrderSteps;
-import stellarburgers.user.BaseUserTest;
 
 import java.net.HttpURLConnection;
 
 import static org.hamcrest.CoreMatchers.*;
 import static stellarburgers.constants.ResponseMessages.CREATION_ORDER_CONFLICT;
 
-public class CreateOrderTest extends BaseUserTest {
-    protected final OrderSteps orderSteps = new OrderSteps();
-    Order order;
-
+public class CreateOrderTest extends BaseOrderTest {
     @Test
     @DisplayName("Create order")
     @Description("Positive test for /api/orders endpoint")

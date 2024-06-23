@@ -10,7 +10,7 @@ import java.net.HttpURLConnection;
 import static org.hamcrest.CoreMatchers.equalTo;
 import static stellarburgers.constants.ResponseMessages.UNAUTHORISED_USER_ERROR;
 
-public class GetUsersOrderTest extends BaseUserTest {
+public class GetUsersOrderTest extends BaseOrderTest {
     protected final OrderSteps orderSteps = new OrderSteps();
 
     @Test
