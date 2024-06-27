@@ -7,5 +7,6 @@ public class Configurations {
     public static final String LOGIN_USER = "/api/auth/login";
     public static final String GET_USER_ORDERS = "/api/orders";
     public static final String USER_INFO = "/api/auth/user";
+    public static final String INGREDIENTS_LIST = "/api/ingredients";
 
 }

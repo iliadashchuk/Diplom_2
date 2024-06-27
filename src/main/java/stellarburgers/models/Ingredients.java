@@ -2,9 +2,9 @@ package stellarburgers.models;
 
 import java.util.List;
 
-public class Order {
+public class Ingredients {
     private List<String> ingredients;
-    public Order(List<String> ingredients) {
+    public Ingredients(List<String> ingredients) {
         this.ingredients = ingredients;
     }
     public List<String> getIngredients() {
