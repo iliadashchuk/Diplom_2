@@ -4,7 +4,6 @@ import io.qameta.allure.Description;
 import io.qameta.allure.junit4.DisplayName;
 import org.junit.Test;
 import stellarburgers.steps.OrderSteps;
-import stellarburgers.user.BaseUserTest;
 
 import java.net.HttpURLConnection;
 import static org.hamcrest.CoreMatchers.equalTo;
